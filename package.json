@@ -1,0 +1,22 @@
+{
+  "name": "teamprofilegenerator-homework10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanBuchanan/TeamProfileGenerator-Homework10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanBuchanan/TeamProfileGenerator-Homework10/issues"
+  },
+  "homepage": "https://github.com/EthanBuchanan/TeamProfileGenerator-Homework10#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
