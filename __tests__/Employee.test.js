@@ -1,7 +1,7 @@
 const Employee = require("../lib/employee");
 
-descibe("Employee", () => {
-    descibe("name", () => {
+describe("Employee", () => {
+    describe("name", () => {
 
         const name = "Fred"
 
@@ -12,7 +12,7 @@ descibe("Employee", () => {
         expect(newEmployee.getName()).toEqual(name);
     });
 
-    descibe("id", () => {
+    describe("id", () => {
 
         const id = 1;
 
@@ -23,7 +23,7 @@ descibe("Employee", () => {
         expect(newEmployee.getId()).toEqual(id);
     });
 
-    descibe("email", () => {
+    describe("email", () => {
 
         const email = "asdf@gmail.com";
 
@@ -34,7 +34,7 @@ descibe("Employee", () => {
         expect(newEmployee.getEmail()).toEqual(email);
     });
 
-    descibe("role", () => {
+    describe("role", () => {
 
         const newEmployee = new Employee("Fred", 1, "asdf@gmail.com");
 

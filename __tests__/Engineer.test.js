@@ -1,7 +1,7 @@
 const Engineer = require("../lib/engineer");
 
-descibe("Engineer", () => {
-    descibe("officeNumber", () => {
+describe("Engineer", () => {
+    describe("officeNumber", () => {
         
         
         const gitHub = "Looking4Clues";
@@ -13,7 +13,7 @@ descibe("Engineer", () => {
         expect(newManager.getGitHub()).toEqual(gitHub);
     });
 
-    descibe("updated role", () => {
+    describe("updated role", () => {
         
         const newManager = new Manager("Fred", 1, "asdf@gmail.com", "Looking4Clues");
 

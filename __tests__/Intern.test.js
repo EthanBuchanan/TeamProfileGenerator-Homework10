@@ -1,7 +1,7 @@
 const Intern = require("../lib/intern");
 
-descibe("Intern", () => {
-    descibe("officeNumber", () => {
+describe("Intern", () => {
+    describe("officeNumber", () => {
         
         
         const school = "CrystalCoveHighSchool";
@@ -13,7 +13,7 @@ descibe("Intern", () => {
         expect(newIntern.getSchool()).toEqual(school);
     });
 
-    descibe("updated role", () => {
+    describe("updated role", () => {
         
         const newIntern = new Manager("Fred", 1, "asdf@gmail.com", "CrystalCoveHighSchool");
 
