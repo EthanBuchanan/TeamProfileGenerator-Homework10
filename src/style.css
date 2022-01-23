@@ -1,0 +1,46 @@
+content {
+    display: flex;
+    width: 100%;
+
+}
+
+main {
+    display: flex;
+    width: 60%;
+    margin: 0px 20%;
+    padding: 0px;
+    max-width: 999999px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+
+header {
+    display: flex;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+header h1 {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.card {
+    width: 29%;
+    margin: 50px 2% 0px;
+    flex-shrink: 0;
+}
+
+.card-body {
+    padding: 35px 12px;
+    
+
+}
